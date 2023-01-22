@@ -1,15 +1,32 @@
-INSERT INTO department (id, department_name)
-VALUES (001, "Human Resources"),
-       (002, "Accounting"),
-       (003, "Payroll");
+-- department --
+INSERT INTO department (name)
+VALUES ("Sales"),
+       ("Marketing"),
+       ("IT"),
+       ("Finance"),
+       ("Operations");
 
-INSERT INTO role (id, title, salary, department_id)
-VALUES (001, "secretary", 40000, 76),
-       (002, "accountant", 70000, 89 ),
-       (003, "bookkeeper", 50000, 98); 
+SELECT * FROM department;
 
+-- role --
+INSERT INTO role (title, salary, department_id)
+VALUES ("Sales Manager", 80000, 1),
+       ("Marketing Manager", 90000, 2),
+       ("Engineering Manager", 250000, 3),
+       ("Software Engineer", 150000, 3),
+       ("Finance Manager", 120000, 4),
+       ("Operations Manager", 75000, 5);
 
-INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
-VALUES (001, "Steve", "Jobs", 65, 23),
-       (002, "Nancy", "Johnson", 56, 23),
-       (003, "Jeff", "Webster", 78, 23);         
+SELECT * FROM role;
+       
+-- employee --
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES ("Mike", "James", 1, null),
+       ("James", "Johnson", 2, null),
+       ("Hildalgo", "Donald", 3, null),
+       ("Jeff", "Jones", 4, 3),
+       ("Mary", "Hemsworth", 4, 3),
+       ("Samantha", "Goggins", 5, null),
+       ("Catherine", "Stevens", 6, null);
+
+SELECT * FROM employee;
