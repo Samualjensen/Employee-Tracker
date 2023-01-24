@@ -2,13 +2,13 @@
 const mysql = require('mysql2');
 const inquirer = require('inquirer');
 const console = require('console.table');
-const util = require('util');
-const { query } = require('express');
+// const util = require('util');
+// const { query } = require('express');
 // const { application } = require('express');
 
 // port and express variable
-const PORT = process.env.PORT || 3001;
-const app = express();
+// const PORT = process.env.PORT || 3001;
+// const app = express();
 
 // middleware
 app.use(express.urlencoded({ extended: false }));
@@ -287,6 +287,6 @@ const updateEmployeeRole = () => {
 };
 
 // listen to port
-app.listen(PORT, () =>
-  console.log(`App listening at http://localhost:${PORT} 🚀`)
-);
+// app.listen(PORT, () =>
+//   console.log(`App listening at http://localhost:${PORT} 🚀`)
+// );
