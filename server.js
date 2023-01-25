@@ -53,18 +53,6 @@ function startPrompt() {
                 viewAllEmployees();
                 break;
 
-            case "View Employees By Manager":
-                viewEmployeesByManager();
-                break;
-
-            case "View Employees By Department":
-                viewEmployeesByDepartment();
-                break;
-
-            case "View Total Utilized Budget By Department":
-                viewTotalUtilizedBudgetByDepartment();
-                break;
-
             case "Add Department":
                 addDepartment();
                 break;
@@ -79,23 +67,7 @@ function startPrompt() {
 
             case "Update Employee Role":
                 updateEmployeeRole();
-                break;
-
-            case "Update Employee Manager":
-                updateEmployeeManager();
-                break;
-
-            case "Delete Department":
-                deleteDepartment();
-                break;
-
-            case "Delete Role":
-                deleteRole();
-                break;
-
-            case "Delete Employee":
-                deleteEmployee();
-                break;
+                break
 
             default:
                 quit();
