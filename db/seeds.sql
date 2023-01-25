@@ -1,27 +1,29 @@
--- department --
-INSERT INTO department (department_name)
+-- department table -- 
+INSERT INTO department (name)
 VALUES ("Sales"),
-       ("Marketing"),
-       ("IT"),
+       ("Engineering"),
        ("Finance"),
-       ("Operations");
+       ("Legal");
 
--- role --
-INSERT INTO roles (title, salary, department_id)
-VALUES ("Sales Manager", 80000, 1),
-       ("Marketing Manager", 90000, 2),
-       ("Engineering Manager", 250000, 3),
-       ("Software Engineer", 150000, 3),
-       ("Finance Manager", 120000, 4),
-       ("Operations Manager", 75000, 5);
-       
--- employee --
-INSERT INTO employee (first_name, last_name, roles_id, manager_id)
-VALUES ("Mike", "James", 1, 3),
-       ("James", "Johnson", 2, 4),
-       ("Hildalgo", "Donald", 3, null),
-       ("Jeff", "Jones", 4, 2),
-       ("Mary", "Hemsworth", 4, 3),
-       ("Samantha", "Goggins", 5, null),
-       ("Catherine", "Stevens", 6, 7);
+-- role table --
+INSERT INTO role (title, salary, department_id)
+VALUES ("Sales Lead", 100000 , 1),
+       ("Salesperson", 80000, 1),
+       ("Lead Engineer", 150000, 2),
+       ("Software Engineer", 120000, 2),
+       ("Account Manager", 160000, 3),
+       ("Accountant", 125000, 3),
+       ("Legal Team Lead", 250000, 4),
+       ("Lawyer", 190000, 4);
+
+-- employee table --
+INSERT INTO employee (first_name, last_name, role_id)
+VALUES ("John", "Doe", 1),
+       ("Mike", "Chan", 2),
+       ("Ashley", "Rodriguez", 3),
+       ("Kevin", "Tupik", 4),
+       ("Kunal", "Singh", 5),
+       ("Malia", "Brown", 6),
+       ("Sarah", "Lourd", 7),
+       ("Tom", "Allen", 8);
 
