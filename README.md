@@ -16,6 +16,8 @@ A command-line application from scratch to manage a company's employee database,
 * npm i console.table
 * npm i
 ### Usage:
+[label](../../Downloads/employee_tracker_demo_video.mp4)
+
 ![Alt text](assets/sqlemployeetrackerterminal%20(2).png)
 ### License
 MIT
