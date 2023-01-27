@@ -13,7 +13,7 @@ A command-line application from scratch to manage a company's employee database,
 * https://github.com/Samualjensen/Employee-Tracker.git
 * npm i inquirer@8.2.4
 * npm i mysql2 
-* npm i console.table,
+* npm i console.table
 * npm i
 ### Usage:
 ### License
