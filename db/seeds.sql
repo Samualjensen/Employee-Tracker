@@ -18,12 +18,11 @@ VALUES ("Sales Lead", 100000 , 1),
 
 -- employee table --
 INSERT INTO employee (first_name, last_name, role_id)
-VALUES ("John", "Doe", 1),
-       ("Mike", "Chan", 2),
-       ("Ashley", "Rodriguez", 3),
-       ("Kevin", "Tupik", 4),
-       ("Kunal", "Singh", 5),
-       ("Malia", "Brown", 6),
-       ("Sarah", "Lourd", 7),
-       ("Tom", "Allen", 8);
-
+VALUES ("Jim", "Halpert", 1),
+       ("Homer", "Simpson", 2),
+       ("Pam", "Besley", 3),
+       ("Mike", "Mitchell", 4),
+       ("Nick", "Wiger", 5),
+       ("Michael", "Jordan", 6),
+       ("Sue", "Bird", 7),
+       ("Damien", "Lillard", 8);
