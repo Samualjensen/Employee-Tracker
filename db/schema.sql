@@ -1,13 +1,17 @@
+-- drop and create database --
 DROP DATABASE IF EXISTS employees_db;
 CREATE DATABASE employees_db;
 
+-- use database --
 USE employees_db;
 
+-- create department table --
 CREATE TABLE department (
 id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 name VARCHAR(30) NOT NULL
 );
 
+-- create role table --
 CREATE TABLE role (
 id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 title VARCHAR(30) NOT NULL,
@@ -18,6 +22,7 @@ department_id INT,
   ON DELETE SET NULL
 );
 
+-- create employee table --
 CREATE TABLE employee (
 id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 first_name VARCHAR(30) NOT NULL,

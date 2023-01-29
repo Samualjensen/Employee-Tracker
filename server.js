@@ -10,13 +10,12 @@ const db = mysql.createConnection({
     user: process.env.DB_USER,
     password: process.env.DB_PASSWORD,
     database: process.env.DB_NAME,
-
 });
 
 // if connected to database console.log, if error throw error
 db.connect((err) => {
     if (err) throw err
-    console.log(`Connected to employee_db database.`);
+    console.log(`Connected to employees_db database.`);
     startPrompt()
 });
 

@@ -1,9 +1,11 @@
+-- department table --
 INSERT INTO department (name)
 VALUES ("Sales"),
        ("Engineering"),
        ("Finance"),
        ("Legal");
 
+-- role table --
 INSERT INTO role (title, salary, department_id)
 VALUES ("Sales Lead", 100000 , 1),
        ("Salesperson", 80000, 1),
@@ -14,6 +16,7 @@ VALUES ("Sales Lead", 100000 , 1),
        ("Legal Team Lead", 250000, 4),
        ("Lawyer", 190000, 4);
 
+-- employee table --
 INSERT INTO employee (first_name, last_name, role_id)
 VALUES ("Jadyn", "Reese", 1),
        ("Gideon", "Gregory", 2),
@@ -24,6 +27,7 @@ VALUES ("Jadyn", "Reese", 1),
        ("Jannine", "Kianna", 7),
        ("Marshall", "Douglas", 8);
 
+-- add manager id to employee data --
 UPDATE employee
 SET manager_id = 1 WHERE id = 2;
 UPDATE employee

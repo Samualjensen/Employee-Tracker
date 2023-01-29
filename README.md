@@ -10,10 +10,11 @@ A command-line application from scratch to manage a company's employee database,
 * [Tests](#tests)
 * [Questions](#questions)
 ### Installation: 
-* https://github.com/Samualjensen/Employee-Tracker.git
+* git clone https://github.com/Samualjensen/Employee-Tracker.git
 * npm i inquirer@8.2.4
 * npm i mysql2 
 * npm i console.table
+* npm i dotenv
 * npm i
 ### Usage:
 https://user-images.githubusercontent.com/115045713/215227118-ac0e0510-1150-447d-8723-cae5f3c3253c.mp4
