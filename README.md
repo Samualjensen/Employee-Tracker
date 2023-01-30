@@ -1,9 +1,9 @@
 # Employee Tracker
 ![License Badge](https://shields.io/badge/license-MIT-green)
-![License Badge](https://img.shields.io/badge/-Javascript-F7DF1E?logo=Javascript&syle=flat)
-![License Badge](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&syle=flat)
-![License Badge](https://img.shields.io/badge/-Node.js-339933?logo=node-dot-js&style=flat)
-![License Badge](https://img.shields.io/badge/-.ENV-ECD53F?logo=.env&syle=flat)
+![License Badge](https://img.shields.io/badge/-Javascript-F7DF1E?logo=Javascript&syle=flat&logoColor=white)
+![License Badge](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&syle=flat&logoColor=white)
+![License Badge](https://img.shields.io/badge/-Node.js-339933?logo=node.js&style=flat&logoColor=white)
+![License Badge](https://img.shields.io/badge/-.ENV-ECD53F?logo=.env&syle=flat&logoColor=white)
 ## Description:
 A command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 ## Table of Contents:
